@@ -1,0 +1,53 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+.navbar {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0ab324+55,ffffff+45 */
+background: rgb(10,179,36); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(10,179,36,1) 55%, rgba(255,255,255,1) 45%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(10,179,36,1) 55%,rgba(255,255,255,1) 45%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(130deg, rgba(255,255,255,1) 55%, rgba(10,179,36,1) 45%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0ab324',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ .nav li a:hover {
+    background-color: #111111;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 100px;
+}
+.carousel-caption{
+
+      border-bottom: 100px solid black;
+      border-left: 100px solid transparent;
+    width: 100%;
+    bottom: 0px!important;
+}
